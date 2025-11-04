@@ -1,4 +1,21 @@
 <p align="center">
+  Automatically set your default preferences for fresh macOS installs!
+</p>
+
+<p align="center">
+  Disclaimer: These are my personal preferences.
+  Feel free to adjust them based on your needs.
+</p>
+
+<p align="center">
+  Alternatively, check out OneCommand to view or set over 185+ preferences:
+</p>
+
+<p align="center">
+  https://shop.ryansummer.com/p/onecommand/
+</p>
+
+<p align="center">
   <img width="757" height="480" alt="macOS_defaults_01" src="https://github.com/user-attachments/assets/5e00257a-1dda-43dd-82b9-2ccc6e21f329" />
 </p>
 
