@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  Alternatively, check out OneCommand to view or set over 185+ preferences:
+  Alternatively, check out OneCommand to view or set over 250+ preferences:
 </p>
 
 <p align="center">
