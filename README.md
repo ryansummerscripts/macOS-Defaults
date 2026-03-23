@@ -24,27 +24,27 @@
 </p>
 
 <p align="center">
-  <img width="757" height="480" alt="macOS_defaults_00" src="https://github.com/user-attachments/assets/e0699509-f981-4fc9-bf76-9fff22a8f205" />
+  <img width="757" height="480" alt="macOS_defaults_00" src="https://github.com/user-attachments/assets/4857f9cf-62bb-4f95-a702-bac5b426f213" />
 </p>
 
 <p align="center">
-  <img width="757" height="480" alt="macOS_defaults_01 0" src="https://github.com/user-attachments/assets/4c116410-c8d9-46e6-9280-21aea92ed482" />
+  <img width="757" height="480" alt="macOS_defaults_01 0" src="https://github.com/user-attachments/assets/fb27923b-454a-45a7-ab18-2755d5ae5984" />
 </p>
 
 <p align="center">
-  <img width="757" height="516" alt="macOS_defaults_01 1" src="https://github.com/user-attachments/assets/6da832c3-a793-4c54-a09c-e0ac99e60210" />
+  <img width="757" height="516" alt="macOS_defaults_01 1" src="https://github.com/user-attachments/assets/fa0dce42-012b-4b9c-b2af-1a71b69b0a9b" />
 </p>
 
 <p align="center">
-  <img width="757" height="480" alt="macOS_defaults_02" src="https://github.com/user-attachments/assets/0d09ab6a-e330-40dc-98b1-c0f450780670" />
+  <img width="757" height="516" alt="macOS_defaults_02" src="https://github.com/user-attachments/assets/87eb44a3-34c5-4314-bffd-429dadd48548" />
 </p>
 
 <p align="center">
-  <img width="757" height="480" alt="macOS_defaults_03" src="https://github.com/user-attachments/assets/01456f7d-549f-4d17-bd37-fd772b7fd716" />
+  <img width="757" height="480" alt="macOS_defaults_03" src="https://github.com/user-attachments/assets/3a045f31-5413-4841-ac81-8228c87c4176" />
 </p>
 
 <p align="center">
-  <img width="757" height="480" alt="macOS_defaults_04" src="https://github.com/user-attachments/assets/43bd1970-5ffe-447a-84d2-f2e32af83b1a" />
+  <img width="757" height="480" alt="macOS_defaults_04" src="https://github.com/user-attachments/assets/65757a89-cd30-4986-aab7-765a10c280d5" />
 </p>
 
 <p align="center">
