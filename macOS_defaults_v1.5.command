@@ -267,7 +267,7 @@ main_menu() {
         resize_terminal 80 24
         clear
         display_macOS_Defaults_header
-        echo
+        show_navigation_prompt_for_80x24_centered
         echo "${BO}${GR}════════════════════════════════════════════════════════════════════════════════${NC}"
         echo "${BO}Configuration Summary:${NC}"
         echo "  macOS Version:  ${CY}${MACOS_NAME} ${product_version}${NC}"
@@ -279,7 +279,7 @@ main_menu() {
             echo "  Virtualization: ${CY}Unknown${NC}"
         fi
         echo "${BO}${GR}════════════════════════════════════════════════════════════════════════════════${NC}"
-        show_navigation_prompt_for_80x24_centered
+        echo
         echo_n_centered "➡️  ${GR}Press Enter to continue (or ${BL}navigation${NC} ${GR}choice):${NC} "
         read -r choice
         handle_navigation_input "$choice"
@@ -304,7 +304,7 @@ sub_menus() {
         trap 'return' SIGINT
         clear
         display_macOS_Defaults_header
-        echo
+        show_navigation_prompt_for_80x24_centered
         echo_centered "Step 1/4: 🔄 ${BO}Initialize Apps${NC}"
         echo
         echo_centered "${YE}In order to ensure certain preferences are persistent upon restart,"
@@ -312,13 +312,13 @@ sub_menus() {
         echo_centered "${GY}Passwords, Preview, Archive Utility, QuickTime and TextEdit${NC}"
         echo
         echo_centered "${GR}Would you like to automatically open these apps now?${NC}"
-        echo_centered "${GY}This will open three existing .txt, .pfd & .mov files that"
+        echo_centered "${GY}This will open three existing .txt, .pdf & .mov files that"
         echo_centered "are shipped with every macOS version (12-26).${NC}"
         echo
         echo "${BO}Choose an option:${NC}"
         echo " 1) ${GR}Yes, open and initialize apps for me${NC}"
         echo " ${GR}⮑ ${NC} ${GR}Skip, I've already opened files with them at least once${NC}"
-        show_navigation_prompt_for_80x24_centered
+        echo
         echo_n_centered "➡️  ${GR}Choose an option (or ${BL}navigation${NC} ${GR}choice):${NC} "
         read -r choice
         handle_navigation_input "$choice"
@@ -340,7 +340,7 @@ sub_menus() {
             trap 'echo; echo_n_centered "🛑 ${RE}Interrupted.${NC} Press Enter to go back a step: "; interrupted=true; continue' SIGINT
             clear
             display_macOS_Defaults_header
-            echo
+            show_navigation_prompt_for_80x24_centered
             echo_centered "Step 1/4: 🔄 ${BO}Initialize Apps${NC}"
             echo
             echo_centered "${GR}Opening Apps...${NC}"
@@ -359,7 +359,7 @@ sub_menus() {
             open "/System/Applications/Passwords.app"
             read -r -t 1 -n 1
             open "/System/Applications/Utilities/Terminal.app"
-            show_navigation_prompt_for_80x24_centered
+            echo
             echo_n_centered "➡️  ${GR}Press Enter to quit apps and continue (or ${BL}navigation${NC} ${GR}choice):${NC} "
             read -r input
             handle_navigation_input "$input"
@@ -404,7 +404,7 @@ sub_menus() {
                 trap 'echo; interrupted=true' SIGINT
                 clear
                 display_macOS_Defaults_header
-                echo
+                show_navigation_prompt_for_80x24_centered
                 echo_centered "Step 2/4: 🔄 ${BO}Grant Terminal Full Disk Access${NC}"
                 echo
                 # Close System Preferences/Settings first before opening it again
@@ -449,7 +449,7 @@ sub_menus() {
                 trap 'echo; echo_n_centered "🛑 ${RE}Interrupted.${NC} Press Enter to go back a step: "; interrupted=true; break' SIGINT
                 clear
                 display_macOS_Defaults_header
-                echo
+                show_navigation_prompt_for_80x24_centered
                 echo_centered "Step 2/4: ✅ ${GR}Terminal has Full Disk Access.${NC}"
             fi
             echo
@@ -473,7 +473,7 @@ sub_menus() {
                     trap 'interrupted=true;' SIGINT
                     clear
                     display_macOS_Defaults_header
-                    echo
+                    show_navigation_prompt_for_80x24_centered
                     echo_centered "Step 3/4: 🔄 ${BO}Ensure administrator privileges are active${NC}"
                     echo
                     echo_centered "${GR}Please provide your password to run commands as administrator.${NC}"
@@ -500,7 +500,7 @@ sub_menus() {
                     trap 'echo; echo_n_centered "🛑 ${RE}Interrupted.${NC} Press Enter to go back a step: "; interrupted=true; break ' SIGINT
                     clear
                     display_macOS_Defaults_header
-                    echo
+                    show_navigation_prompt_for_80x24_centered
                     echo_centered "Step 3/4: ✅ ${GR}Administrator privileges are active${NC}"
                     echo
                     echo_centered "✅ ${GR}Done${NC}"
@@ -523,7 +523,7 @@ sub_menus() {
                     trap 'echo; echo_n_centered "🛑 ${RE}Interrupted.${NC} Press Enter to go back a step: "; interrupted=true; break' SIGINT
                     clear
                     display_macOS_Defaults_header
-                    echo
+                    show_navigation_prompt_for_80x24_centered
                     echo_centered "Step 4/4: 🔄 ${BO}Confirm setting new macOS defaults${NC}"
                     echo
                     echo
@@ -533,7 +533,7 @@ sub_menus() {
                     echo_centered "${GY}Preferences will now be set${NC}"
                     echo
                     echo
-                    show_navigation_prompt_for_80x24_centered
+                    echo
                     echo_n_centered "➡️  ${GR}Type${NC} ${BO}'yes'${NC} ${GR}to confirm/begin (or ${BL}navigation${NC} ${GR}choice):${NC} "
                     read -r confirm
                     handle_navigation_input "$confirm"
