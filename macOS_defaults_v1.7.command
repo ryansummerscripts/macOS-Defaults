@@ -3,7 +3,7 @@
 #  _ __  __ _ __ / _ \/ __|  __| |___ / _|__ _ _  _| | |_ ___
 # | '  \/ _` / _| (_) \__ \ / _` / -_)  _/ _` | || | |  _(_-<
 # |_|_|_\__,_\__|\___/|___/ \__,_\___|_| \__,_|\_,_|_|\__/__/
-# Created by Ryan Summer     For macOS 12-26     Version 1.7.0
+# Created by Ryan Summer     For macOS 12-26     Version 1.7
 #
 # Updated 07/07/2026
 
@@ -274,7 +274,7 @@ display_macOS_Defaults_header() {
            |_|_|_\__,_\__|\___/|___/ \__,_\___|_| \__,_|\_,_|_|\__/__/
 EOF
     echo -n "${NC}"
-    echo_centered "${BL}Created by Ryan Summer${NC}  |  ${BL}For macOS 12-26${NC}  |  ${BL}Version 1.7.0${NC}"
+    echo_centered "${BL}Created by Ryan Summer${NC}  |  ${BL}For macOS 12-26${NC}  |  ${BL}Version 1.7${NC}"
 }
 display_macOS_Defaults_header_for_130px() {
     echo -n "${BO}"
@@ -285,7 +285,7 @@ display_macOS_Defaults_header_for_130px() {
                                     |_|_|_\__,_\__|\___/|___/ \__,_\___|_| \__,_|\_,_|_|\__/__/
 EOF
     echo -n "${NC}"
-    echo_centered "${BL}Created by Ryan Summer${NC}  |  ${BL}For macOS 12-26${NC}  |  ${BL}Version 1.7.0${NC}"
+    echo_centered "${BL}Created by Ryan Summer${NC}  |  ${BL}For macOS 12-26${NC}  |  ${BL}Version 1.7${NC}"
 }
 show_navigation_prompt_for_80x24_centered() {
     echo
