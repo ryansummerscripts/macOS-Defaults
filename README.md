@@ -1,4 +1,8 @@
 <p align="center">
+<strong>[macOS 27 Beta testing is underway!]</strong>
+</p>
+
+<p align="center">
   Automatically set your default preferences for fresh macOS installs!
 </p>
 
