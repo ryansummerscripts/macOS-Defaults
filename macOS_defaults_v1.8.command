@@ -1917,15 +1917,7 @@ sub_menus() {
                             q|Q) echo; echo_n_centered "❌ ${RE}Canceled.${NC} Please restart your Mac manually when ready. "; read -r -t 1 -n 1; return ;;
                             b|B) echo; echo_n_centered "❌ ${RE}Canceled.${NC} Please restart your Mac manually when ready. "; read -r -t 1 -n 1; return ;;
                             r|R) break ;;
-                            y|Y) 
-                                echo
-                                echo_centered "🔄 Restarting system... "
-                                echo
-                                echo_centered "👋 ${BO}Goodbye${NC}"
-                                echo
-                                # sudo shutdown -r now
-                                exit 0
-                                ;;
+                            y|Y) echo; echo_centered "🔄 Restarting system... "; echo; echo_centered "👋 ${BO}Goodbye${NC}"; echo; sudo shutdown -r now; exit 0 ;;
                             *) echo; echo_n_centered "❌ ${RE}Canceled.${NC} Please restart your Mac manually when ready. "; read -r -t 1 -n 1; echo; echo; echo_centered "👋 ${BO}Goodbye${NC}"; echo; exit 0 ;;
                         esac
                     done
